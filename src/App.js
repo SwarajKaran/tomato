@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react';
+import HomePage from './pages/home';
 
 const App = () => {
-  return <div>This is tomato</div>;
+  return <HomePage />;
 };
 
 export default App;
