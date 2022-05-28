@@ -8,5 +8,5 @@
   align-items: center;
 }
 .cur-po {
-  cursor: progress;
+  cursor: pointer;
 }
