@@ -16,3 +16,9 @@
   margin-bottom: 32px;
   font-weight: 600;
 }
+.slick-next::before {
+  color: var(--gray);
+}
+.slick-prev::before {
+  color: var(--gray);
+}
