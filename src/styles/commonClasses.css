@@ -7,6 +7,6 @@
   justify-content: center;
   align-items: center;
 }
-.cur-po{
-  cursor: pointer;
+.cur-po {
+  cursor: progress;
 }
