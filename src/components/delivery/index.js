@@ -1,6 +1,7 @@
 import React from 'react';
 import Filters from '../common/filters';
 import './delivery.css';
+import DeliveryCollections from './deliveryCollections';
 const deliveryFilters = [
   {
     id: 1,
@@ -35,6 +36,7 @@ const Delivery = () => {
       <div className="max-width">
         <Filters filterList={deliveryFilters} />
       </div>
+      <DeliveryCollections />
     </div>
   );
 };
