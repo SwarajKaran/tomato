@@ -1,4 +1,6 @@
 import React from 'react';
+import { restaurants } from '../../data/restaurants';
+import ExploreSection from '../common/exploreSection';
 import Filters from '../common/filters';
 import './delivery.css';
 import DeliveryCollections from './deliveryCollections';
@@ -31,6 +33,7 @@ const deliveryFilters = [
     title: 'Great Offers',
   },
 ];
+const restaurantList = restaurants;
 const Delivery = () => {
   return (
     <div>
@@ -39,6 +42,10 @@ const Delivery = () => {
       </div>
       <DeliveryCollections />
       <TopBrands />
+      <ExploreSection
+        list={restaurantList}
+        collectionName="Order food online in DLF Cyber City, Gachibowli"
+      />
     </div>
   );
 };
