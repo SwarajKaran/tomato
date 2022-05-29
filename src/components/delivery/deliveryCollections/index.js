@@ -92,7 +92,7 @@ const DeliveryCollections = () => {
         <div className="collection-title">Eat what makes you happy</div>
         <Slider {...settings}>
           {deliveryItems.map((item) => {
-            return <DeliveryItem item={item}></DeliveryItem>;
+            return <DeliveryItem item={item} key={item.id}></DeliveryItem>;
           })}
         </Slider>
       </div>

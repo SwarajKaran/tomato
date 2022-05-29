@@ -51,7 +51,7 @@ const ExploreCard = ({ restaurant }) => {
           <div className="res-cuisines">
             {cuisines.map((item, i) => {
               return (
-                <span className="res-cuisine-tag">
+                <span key={Math.random() * 1000} className="res-cuisine-tag">
                   {item}
                   {i !== cuisines.length - 1 && ', '}
                 </span>

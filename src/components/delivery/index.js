@@ -25,7 +25,7 @@ const deliveryFilters = [
   },
   {
     id: 5,
-    icon: <i class="fi fi-rr-apps-sort"></i>,
+    icon: <i className="fi fi-rr-apps-sort"></i>,
     title: 'Delivery Time',
   },
   {

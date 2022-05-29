@@ -89,7 +89,7 @@ const TopBrands = () => {
       <Slider {...settings}>
         {topBrandList.map((brand) => {
           return (
-            <div>
+            <div key={brand.id}>
               <div className="top-brands-cover">
                 <img
                   src={brand.cover}

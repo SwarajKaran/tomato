@@ -8,7 +8,9 @@ const ExploreSection = ({ list, collectionName }) => {
       <div className="collection-title">{collectionName}</div>
       <div className="explore-grid">
         {list.map((restaurant) => {
-          return <ExploreCard restaurant={restaurant} />;
+          return (
+            <ExploreCard key={restaurant.info.resId} restaurant={restaurant} />
+          );
         })}
       </div>
     </div>
