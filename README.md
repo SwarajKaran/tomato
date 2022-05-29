@@ -1,1 +1,2 @@
-tomato - the zomato clone - food ordering webapp
+# tomato
+**the zomato clone - food ordering webapp*
