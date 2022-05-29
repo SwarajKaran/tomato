@@ -23,7 +23,7 @@ const tabs = [
 
   {
     id: 3,
-    name: 'Night Life',
+    name: 'Nightlife',
     active_image:
       'https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png',
     backdrop: '#EDF4FF',
