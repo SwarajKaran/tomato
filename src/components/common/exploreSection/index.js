@@ -1,5 +1,4 @@
 import React from 'react';
-import { restaurants } from '../../../data/restaurants';
 import ExploreCard from './exploreCard';
 import './exploreSection.css';
 const ExploreSection = ({ list, collectionName }) => {

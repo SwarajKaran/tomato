@@ -1,0 +1,18 @@
+.wrapper {
+  background-color: var(--inactive-color);
+  padding: 10px;
+}
+.text {
+  color: var(--tomato-red);
+}
+.github {
+  margin-left: 43%;
+  height: 20px;
+  width: 160px;
+  background-color: var(--tag-blue);
+  border-radius: 25px;
+}
+a {
+  text-decoration: none;
+  color: var(--inactive-color);
+}
