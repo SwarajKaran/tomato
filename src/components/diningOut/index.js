@@ -3,6 +3,7 @@ import Collection from '../common/collection';
 import './diningOut.css';
 import Filters from '../common/filters';
 import ExploreSection from '../common/exploreSection';
+import { diningOut } from '../../data/diningOut';
 const collectionList = [
   {
     id: 1,
@@ -89,6 +90,7 @@ const diningFilters = [
     title: 'Cafes',
   },
 ];
+const restaurantList = diningOut;
 const DiningOut = () => {
   return (
     <div>
@@ -96,7 +98,10 @@ const DiningOut = () => {
       <div className="max-width">
         <Filters filterList={diningFilters}></Filters>
       </div>
-      {/* <ExploreSection list={collectionList} collectionName="Dine Out" /> */}
+      <ExploreSection
+        list={restaurantList}
+        collectionName="Dine-Out Restaurants in Gachibowli"
+      />
     </div>
   );
 };
