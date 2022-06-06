@@ -8,7 +8,7 @@ const Footer = () => {
       </div>
 
       <div className="github absolute-center">
-        <a href="https://github.com/SwarajKaran/tomato">View Source Code</a>
+        <a href="https://github.com/SwarajKaran/tomato" target="_blank">View Source Code</a>
       </div>
     </div>
   );
